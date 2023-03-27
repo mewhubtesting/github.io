@@ -156,7 +156,7 @@
 
                     
 
-                    writeLine(["<i style='color: #40a3ff'>mewhub > $</i> <i><a id='enterButton'>click to enter</a></i>"], 120, 500, function () {
+                    writeLine(["<i style='color: #40a3ff'>mewhub</i> <i><a id='enterButton'>click to enter</a></i>"], 120, 500, function () {
                         timeouts.push(setTimeout(function () {
                             if (app.skippedIntro)
                                 return;
