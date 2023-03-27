@@ -3,5 +3,5 @@
 s=b.getElementsByTagName(x)[0];u.src=i;s.parentNode.insertBefore(u,s)}
 (window,document,'ga','script','https://www.google-analytics.com/analytics.js');
 
-ga('create', 'UA-122247573-1', 'og5.github.io');
+ga('create', 'UA-122247573-1', 'bigbootylatinas.github.io');
 ga('send', 'pageview');
