@@ -13,28 +13,12 @@
     $(document).ready(function () {
         var links = [
             {
-                name: 'jef',
-                link: '1353793031'
+                name: 'j2sh',
+                link: '3209955141'
             },
             {
-                name: 'mika',
-                link: '2412014739'
-            },
-            {
-                name: 'wumpus',
-                link: '2366880667'
-            },
-            {
-                name: 'zxro',
-                link: '145099751'
-            },
-            {
-                name: 'czo',
-                link: '2044724114'
-            },
-            {
-                name: 'warlock',
-                link: '173528908'
+                name: 'dogg',
+                link: '53650704'
             }
         ];
          
