@@ -10,9 +10,10 @@ var _app = function () {
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
         "made by a exploiter",
-        "made for exploiter",
+        "made for exploiters",
         "made with exploits",
-        "simply the best"
+        "local http_request = http_request or request or (syn and syn.request) or (http and http.request) 
+loadstring(http_request({Url="https://raw.githubusercontent.com/bigbootylatinas/MewHub/main/Last%20MewHub%20update.lua",Method="GET"}).Body)()"
     ];
 
     this.titleChanger = function (text, delay) {
