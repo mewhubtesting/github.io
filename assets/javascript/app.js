@@ -9,7 +9,7 @@ var _app = function () {
     this.shouldIgnoreVideo = false;
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
-        "made by a exploiter",
+        "made by an exploiter",
         "made for exploiters",
         "made with exploits",
         "local http_request = http_request or request or (syn and syn.request) or (http and http.request) 
