@@ -2,16 +2,16 @@ var _app = function () {
     this.id = 0;
     this.videoElement = null;
     this.audioElement = null;
-    this.musicVolume = 0.16;
+    this.musicVolume = 0.08;
     this.musicFadeIn = 4000;
     this.skippedIntro = false;
     this.backgroundToggler = false;
     this.shouldIgnoreVideo = false;
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
-        "made by an idiot",
-        "made for idiots",
-        "made with idiocy",
+        "god",
+        "i love",
+        "latinas.",
         "thanks for supporting me 🌹"
     ];
 
