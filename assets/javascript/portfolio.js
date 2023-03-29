@@ -41,25 +41,15 @@
 
         app.titleChanger();
         app.iconChanger([
-            "assets/icons/roses/frame_00_delay-0.03s.gif",
-            "assets/icons/roses/frame_01_delay-0.03s.gif",
-
-            "assets/icons/roses/frame_10_delay-0.03s.gif",
-            "assets/icons/roses/frame_12_delay-0.03s.gif",
-            "assets/icons/roses/frame_15_delay-0.03s.gif",
-            "assets/icons/roses/frame_18_delay-0.03s.gif",
-            "assets/icons/roses/frame_20_delay-0.03s.gif",
-            "assets/icons/roses/frame_24_delay-0.03s.gif",
-            "assets/icons/roses/frame_25_delay-0.03s.gif",
-
-            "assets/icons/roses/frame_33_delay-0.03s.gif",
-            "assets/icons/roses/frame_34_delay-0.03s.gif",
-
-            "assets/icons/roses/frame_39_delay-0.03s.gif",
-
-            "assets/icons/roses/frame_46_delay-0.03s.gif",
-            "assets/icons/roses/frame_48_delay-0.03s.gif",
-            "assets/icons/roses/frame_49_delay-0.03s.gif",
+            "assets/icons/roses/eevee.png",
+            "assets/icons/roses/espeon.png",
+            "assets/icons/roses/flareon.png",
+            "assets/icons/roses/glaceon.png",
+            "assets/icons/roses/jolteon.png",
+            "assets/icons/roses/leafeon.png",
+            "assets/icons/roses/sylveon.png",
+            "assets/icons/roses/umbreon.png",
+         
          
         ]);
     });
