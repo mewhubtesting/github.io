@@ -43,9 +43,7 @@
         app.iconChanger([
             "assets/icons/roses/frame_00_delay-0.03s.gif",
             "assets/icons/roses/frame_01_delay-0.03s.gif",
-            "assets/icons/roses/frame_02_delay-0.03s.gif",
-            "assets/icons/roses/frame_08_delay-0.03s.gif",
-            "assets/icons/roses/frame_09_delay-0.03s.gif",
+
             "assets/icons/roses/frame_10_delay-0.03s.gif",
             "assets/icons/roses/frame_12_delay-0.03s.gif",
             "assets/icons/roses/frame_15_delay-0.03s.gif",
@@ -53,21 +51,12 @@
             "assets/icons/roses/frame_20_delay-0.03s.gif",
             "assets/icons/roses/frame_24_delay-0.03s.gif",
             "assets/icons/roses/frame_25_delay-0.03s.gif",
-            "assets/icons/roses/frame_28_delay-0.03s.gif",
-            "assets/icons/roses/frame_29_delay-0.03s.gif",
-            "assets/icons/roses/frame_31_delay-0.03s.gif",
-            "assets/icons/roses/frame_32_delay-0.03s.gif",
+
             "assets/icons/roses/frame_33_delay-0.03s.gif",
             "assets/icons/roses/frame_34_delay-0.03s.gif",
-            "assets/icons/roses/frame_35_delay-0.03s.gif",
-            "assets/icons/roses/frame_36_delay-0.03s.gif",
-            "assets/icons/roses/frame_37_delay-0.03s.gif",
-            "assets/icons/roses/frame_38_delay-0.03s.gif",
+
             "assets/icons/roses/frame_39_delay-0.03s.gif",
-            "assets/icons/roses/frame_40_delay-0.03s.gif",
-            "assets/icons/roses/frame_41_delay-0.03s.gif",
-            "assets/icons/roses/frame_42_delay-0.03s.gif",
-            "assets/icons/roses/frame_43_delay-0.03s.gif",
+
             "assets/icons/roses/frame_46_delay-0.03s.gif",
             "assets/icons/roses/frame_48_delay-0.03s.gif",
             "assets/icons/roses/frame_49_delay-0.03s.gif",
