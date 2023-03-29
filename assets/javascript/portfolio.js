@@ -34,7 +34,7 @@
         }
 
         if (window.mobileAndTabletCheck()) {
-            $("#background").replaceWith('<div id="background" style="background-image: url(https://media.discordapp.net/attachments/944505737235824701/1030127231764279387/SPOILER_caption-2-4.gif);"></div>');
+            $("#background").replaceWith('<div id="background" style="background-image: url(https://tenor.com/view/moonwalking-dancing-jennaortega-jenna-ortega-gif-23778832);"></div>');
 
             app.shouldIgnoreVideo = true;
         } 
