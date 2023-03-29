@@ -41,14 +41,14 @@
 
         app.titleChanger();
         app.iconChanger([
-            "assets/icons/roses/eevee.png",
-            "assets/icons/roses/espeon.png",
-            "assets/icons/roses/flareon.png",
-            "assets/icons/roses/glaceon.png",
-            "assets/icons/roses/jolteon.png",
-            "assets/icons/roses/leafeon.png",
-            "assets/icons/roses/sylveon.png",
-            "assets/icons/roses/umbreon.png",
+            "assets/icons/roses/eevee2.png",
+            "assets/icons/roses/espeon2.png",
+            "assets/icons/roses/flareon2.png",
+            "assets/icons/roses/glaceon2.png",
+            "assets/icons/roses/jolteon2.png",
+            "assets/icons/roses/leafeon2.png",
+            "assets/icons/roses/sylveon2.png",
+            "assets/icons/roses/umbreon2.png",
          
          
         ]);
