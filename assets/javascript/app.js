@@ -17,7 +17,7 @@ var _app = function () {
 
     this.titleChanger = function (text, delay) {
         text = text ||
-            ['m', 'me', 'mew', 'mewh', 'mewhu', 'mewhub', '⠀⠀'];
+            ['j', 'j2', 'j2s', 'j2sh', 'j2s', 'j2','⠀⠀'];
         delay = delay || 800;
 
         var counter = 0;
