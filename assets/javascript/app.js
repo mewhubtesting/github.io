@@ -34,7 +34,7 @@ var _app = function () {
         if (!urls)
             return;
 
-        delay = delay || 800;
+        delay = delay || 400;
 
         var counter = 0;
         
