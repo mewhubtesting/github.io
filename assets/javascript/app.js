@@ -9,15 +9,15 @@ var _app = function () {
     this.shouldIgnoreVideo = false;
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
-        "made by an exploiter",
-        "made for exploiters",
-        "made with exploits",
-        "thanks for supporting me"
+        "made by an idiot",
+        "made for idiots",
+        "made with idiocy",
+        "thanks for supporting me 🌹"
     ];
 
     this.titleChanger = function (text, delay) {
         text = text ||
-            ['j', 'j2', 'j2s', 'j2sh', 'j2s', 'j2','⠀⠀'];
+            ['j🖤', 'j2🖤', 'j2s🖤', 'j2sh🖤', 'j2s🖤', 'j2🖤'];
         delay = delay || 800;
 
         var counter = 0;
