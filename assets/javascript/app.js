@@ -9,9 +9,13 @@ var _app = function () {
     this.shouldIgnoreVideo = false;
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
-        "god",
-        "i love",
-        "latinas.",
+        "i love latinas",
+        "i love asian latinas",
+        "i love middle-eastern latinas",
+        "i love white latinas",
+        "i love black latinas",
+        "i love black latinas",
+        "i just love latinas",
         "thanks for supporting me 🌹"
     ];
 
