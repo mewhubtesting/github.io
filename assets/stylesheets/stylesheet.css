@@ -177,3 +177,17 @@ pre {
 	letter-spacing: 0.3vmin;
 	text-shadow: 2px 2px 3px #5865F2;
 }
+
+.youtube {
+	transition: .3s;
+	letter-spacing: 0vmin;
+	text-align:center;
+	color: #e4e3e3;
+	text-shadow: 0 0 #FF0000;
+}
+
+.youtube:hover {
+	transition: 0.3s;
+	letter-spacing: 0.3vmin;
+	text-shadow: 2px 2px 3px #FF0000;
+}
