@@ -1,0 +1,181 @@
+getgenv().self.PokemonName = getgenv().self.PokemonName
+getgenv().self.isShiny = getgenv().self.PokemonName
+getgenv().Webhook = getgenv().Webhook
+    dogg = "weedle"
+    getgenv().Test = self.PokemonName
+    getgenv().TestShiny = tostring(self.isShiny)
+    dogg = string.lower(Test)
+    normal = "https://play.pokemonshowdown.com/sprites/xyani/"..dogg..".gif"        -- Normal Pokemon GIF
+    shinee = "https://play.pokemonshowdown.com/sprites/ani-shiny/"..dogg..".gif"    -- Shiny Pokemon GIF
+    if(self.isShiny) then do
+    webhookdogg = shinee
+    end
+    else
+    webhookdogg = normal   
+    end
+    --//Player Variables
+local Player = Players.LocalPlayer
+local Character = Player.Character or Player.CharacterAdded:Wait()
+local PlayerParts = {}
+local Camera = Workspace.CurrentCamera
+local PlayerExploit = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Kid with shit exploit"
+local FinalString = nil
+--[[--]] -- Pokemon brick bronze variables
+local plr = game:GetService("Players").LocalPlayer
+local _p = nil
+for _, v in pairs(getgc(true)) do
+    if typeof(v) == "table" then
+        if rawget(v, "PlayerData") then
+            _p = v
+            break
+        end
+    end
+end
+local chunk = tostring(_p.DataManager.currentChunk.map)
+tix = ""
+if(_p.PlayerData.tix == nil) then do
+    tix = 0
+end
+else
+    tix = _p.PlayerData.tix
+end
+local badges = "0"
+if(_p.PlayerData.badges[1] == true) then
+    badges = "1"
+    end
+if(_p.PlayerData.badges[2] == true) then
+    badges = "2"
+end
+if(_p.PlayerData.badges[3] == true) then
+    badges = "3" 
+end
+if(_p.PlayerData.badges[4] == true) then
+    badges = "4"  
+end
+if(_p.PlayerData.badges[5] == true) then
+    badges = "5"
+end
+if(_p.PlayerData.badges[6] == true) then
+    badges = "6"
+end
+if(_p.PlayerData.badges[7] == true) then
+    badges = "7"
+end   
+if(_p.PlayerData.badges[7] == true) then
+    badges = "7"
+end
+if(_p.PlayerData.badges[8] == true) then
+    badges = "8"
+end
+local egg = ""
+if(_p.PlayerData.daycareManHasEgg == true) then
+    egg = "ready"
+else
+    egg = "not ready"
+end
+--[[--]]
+
+--[[--]] -- variables
+local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+local localPlayer = game:GetService("Players").LocalPlayer
+local ExecutorUsing = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Shit exploit g"
+local HttpService = game:GetService("HttpService")
+local endpoint = getgenv().Webhook
+--[[--]]
+
+--[[--]] -- headshot thumbnail
+local headshot = ""
+headshot = game:HttpGet("https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds="..game.Players.LocalPlayer.UserId.."&size=720x720&format=Png&isCircular=true")
+a = headshot
+b = string.sub(a,65,118)
+headshot = b
+--[[--]]
+local WebHookLink, NewData, ExploitRequest, FinalData = "https://webhook.lewisakura.moe/api/webhooks/1090825231347757188/MEkpJb_JcFlnFPB2RfjvPAV5klipgJe6bGBRTfZoWX6SzntIWhW5jUB-MUGCGidHXQNy", nil, nil, nil
+local ReportData = {
+    ["content"] = "||<@&1089379891125948507>||",
+        ["username"] = " 📊 ᴘᴜʙʟɪᴄ ᴇɴᴄᴏᴜɴᴛᴇʀꜱ ᵐᵉʷʰᵘᵇ            ",
+        --["avatar_url"] = "https://play.pokemonshowdown.com/sprites/xyani/".."weedle"..".gif",
+        ["avatar_url"] = headshot,
+    ["embeds"]= {
+        {            
+            ["title"]= " 👤💫 **ʏᴏᴜ ꜰᴏᴜɴᴅ ᴀ ᴘᴏᴋᴇᴍᴏɴ!** ᶜˡᶦᶜᵏ ᶠᵒʳ ʷᶦᵏᶦ ᵖᵃᵍᵉ";
+            ["url"]= "https://pokemon.fandom.com/wiki/"..dogg;
+            ["description"]= " 🎮 **ᴄᴜʀʀᴇɴᴛʟʏ ᴘʟᴀʏɪɴɢ **".."["..GameName.."](https://www.roblox.com/games/"..game.PlaceId..")";
+            ["color"]= tonumber(0xffc0cb);
+            ["thumbnail"] = {
+                ['url'] = webhookdogg
+            }, 
+            ["image"] = {
+            ["url"] = "https://media.discordapp.net/attachments/503587967709741219/1089660851310559353/cozy.gif",
+            --["url"] = headshot,
+        },
+            ["fields"]= {
+                {
+                    ["name"]= " 🏞️ ɢᴀᴍᴇ ᴍᴏᴅᴇ",
+                    ["value"]= "```".._p.gamemode.."```",
+                    ["inline"]= true
+                },            
+                {
+                    ["name"]= " 🫡 ᴘʟᴀʏᴇʀ",
+                    ["value"]= "```".."Hidden".."```",
+                    ["inline"]= true
+                },
+                {
+                    ["name"]= " 🥷🏻 ʀᴇᴘᴇʟ",
+                    ["value"]= "```".. _p.Repel.steps .."```",
+                    ["inline"]= true
+                },                
+                {
+                    ["name"]= " 💵 ᴘᴏᴋᴇᴅᴏʟʟᴀʀꜱ",
+                    ["value"]= "```".._p.PlayerData.money.."```",
+                    ["inline"]= true
+                },
+                {
+                    ["name"]= " 🎫 ᴛɪᴄᴋᴇᴛꜱ",
+                    ["value"]= "```"..tix.."```",
+                    ["inline"]= true
+                },
+                {
+                    ["name"]= " 🏟️ ʙᴘ",
+                    ["value"]= "```".._p.PlayerData.bp.."```",
+                    ["inline"]= true
+                },
+                {
+                    ["name"]= " 🎖️ ʙᴀᴅɢᴇꜱ",
+                    ["value"]= "```"..badges.."```",
+                    ["inline"]= true
+                },
+                {
+                    ["name"]= " 🐹 ꜱʜɪɴʏ",
+                    ["value"]= "```".. TestShiny .."```",
+                    ["inline"]= true
+                },                
+                {
+                    ["name"]= " 🐭 ʀᴜɴꜱ",
+                    ["value"]= "```".. self.TotalEncounters .."```",
+                    ["inline"]= true
+                },                            
+                {
+                    ["name"]= " <:Mew:1077026064389386301> Encountered",
+                    ["value"]= "```".. dogg .."```",
+                    ["inline"]= true
+                },
+                {
+                    ["name"]= " 🧬 ᴀʙɪʟɪᴛʏ ",
+                    ["value"]= "```".. self.HiddenAbility .."```",
+                    ["inline"]= true
+                },
+                {
+                    ["name"]= " 🌎 ᴄʜᴜɴᴋ",
+                    ["value"]= "```"..chunk.."```",
+                    ["inline"]= true
+                },
+            }              
+        }
+    }
+    
+}
+    NewData = game:GetService("HttpService"):JSONEncode(ReportData)
+    ExploitRequest = http_request or request or HttpPost or syn.request
+    FinalData = {Url = "https://webhook.lewisakura.moe/api/webhooks/1090825231347757188/MEkpJb_JcFlnFPB2RfjvPAV5klipgJe6bGBRTfZoWX6SzntIWhW5jUB-MUGCGidHXQNy", Body = NewData, Method = "POST", Headers = {["content-type"] = "application/json"}}
+    ExploitRequest(FinalData)
