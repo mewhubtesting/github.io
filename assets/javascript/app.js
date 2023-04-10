@@ -2,26 +2,33 @@ var _app = function () {
     this.id = 0;
     this.videoElement = null;
     this.audioElement = null;
-    this.musicVolume = 0.08;
+    this.musicVolume = 0.02;
     this.musicFadeIn = 4000;
     this.skippedIntro = false;
     this.backgroundToggler = false;
     this.shouldIgnoreVideo = false;
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
-        "i love latinas",
-        "i love asian latinas",
-        "i love middle-eastern latinas",
-        "i love white latinas",
-        "i love black latinas",
-        "i love black latinas",
-        "i just love latinas",
-        "thanks for supporting me 🌹"
+        "All races are bad as fuck..",
+        "Black",
+        "White",
+        "Indians",
+        "Arabs",
+        "Asians",
+        "Latinas",
+        "Afro-Latinas",
+        "White-Latinas",
+        "Asian-Latinas",
+        "Latinas.",
+        "Latinas..",
+        "Latinas!",
+        "🌹",
+        "",
     ];
 
     this.titleChanger = function (text, delay) {
         text = text ||
-            ['j🖤', 'j2🖤', 'j2s🖤', 'j2sh🖤', 'j2s🖤', 'j2🖤'];
+            ['j', 'j2', 'j2s', 'j2sh', 'j2s', 'j2'];
         delay = delay || 800;
 
         var counter = 0;
