@@ -13,6 +13,10 @@
     $(document).ready(function () {
         var links = [
             {
+                name: 'Roblox Users:',
+                link: '2457458156'
+            },
+            {
                 name: 'j2sh',
                 link: '3209955141'
             },
@@ -63,23 +67,10 @@
         event.preventDefault() 
     });
 
-    $(window).on('keydown', function () {
-        if (event.keyCode == 123)
-            return false;
-        else if (event.ctrlKey && event.shiftKey && event.keyCode == 73)
-            return false;
-        else if (event.ctrlKey && event.keyCode == 73)
-            return false;
-        else if (event.ctrlKey && event.shiftKey && event.keyCode == 74)
-            return false;
-        else if (event.ctrlKey && event.keyCode == 74)
-            return false;
-        });
-
-    document.body.onkeyup = function (e) {
-        if (e.keyCode == 32 && app.skippedIntro)
+    document.body.onkeyup = function () {
+        if (app.skippedIntro)
         {
-            if (app.backgroundToggler)
+            if (app.skippedIntro)
             {
                 app.videoElement.play();
                 app.audioElement.play();
@@ -137,41 +128,29 @@
         }, timeout);
     };
 
+    
+
     (function () {
-        $.getJSON('https://ipapi.co/json', function (data) {
-            var usernames = ["user", "dude"];
-            writeLine(["hello <span style='font-size: 14px; color: #40a3ff;'>Anon</span>...", "granting access to <span style='font-size: 14px; color: #40a3ff;'>[" + ((data.ip) ? data.ip : usernames[Math.floor(Math.random()*usernames.length)])+"]</span>"], 30, function () {
 
-                if (app.skippedIntro)
-                	return;
 
-                clearCursor();
-                
-                writeLine(["access granted <span style='font-size: 14px; color: #40a3ff;'>[success]</span>",
-                    "</i>how is <span style='font-size: 14px; color: #40a3ff;'>" + ((data.city) ? data.city : 'your city') + "</span>?"], 30, 500, function () {
 
-                    if (app.skippedIntro)
-                        return;
-
-                    clearCursor();
 
                     
-
-                    writeLine(["<i style='color: #40a3ff'>my portfolio > </i> <i><a id='enterButton'>click to enter</a></i>"], 120, 500, function () {
                         timeouts.push(setTimeout(function () {
                             if (app.skippedIntro)
                                 return;
                             clearCursor();
-                            document.getElementById("enterButton").onclick = function() {skipIntro()};
-                        }, 1000));
+                            
+                            {skipIntro()};
+                            
+ 
+                        },5));
 
-                    });
+                
 
-                });
 
-            });
 
-        });
+
 
     })()
 
@@ -196,7 +175,7 @@
 
         $(".top-right").remove();
 
-        $('#main').fadeOut(100, function () {
+        $('#main').fadeOut(0, function () {
             
             $("#main").remove();
 
@@ -247,4 +226,5 @@
     var clearCursor = function () {
         return $("span").siblings(".typed-cursor").css("opacity", "0");
     }
+    
 })()
