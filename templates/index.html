@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="180" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+      body {
+          background-color: transparent;
+          visibility: none;
+      }
+      
+      .profile-avatar {
+          left: 550px;
+      }
+      .profile-header {
+          box-sizing: border-box;
+          background-color: #36393f;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          width: 520px;
+          height: 130px;
+      }
+      .profile-info {
+          position: absolute;
+          color: #fff;
+          font-size: 20px;
+          flex-basis: 100%;            
+      }
+      .profile-stats {
+          position: absolute;
+          font-size: 20px;
+          order: 2;
+          bottom: 50px;
+          color: black;
+          left: 150px;
+      }
+      .profile-stats ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+      }
+      .profile-stats li {
+          display: inline-flex;
+          align-items: center;
+      }
+      .profile-stats li .profile-count {
+          margin-right: 5px;
+          color: #ffffff;
+      }
+      .profile-label {
+          color: #999999;
+          font-size: 12px;
+          margin-bottom: 3px;
+          height: 20px;
+          right: 10px;
+      }
+      a {
+          color: #ffffff;
+          text-decoration: none;
+      }
+      a:hover {
+          text-decoration: underline;
+      }
+      .profile-name{
+          font-size: xx-large;
+          position: relative;
+          height: 140px;
+          left: 150px;
+          font-family: 'GG Gothic L', sans-serif;
+      }
+      .profile-display{
+          font-size: large;
+          position: absolute;
+          top: 40px;
+          left: 150px;
+          font-family: 'GG Gothic L', sans-serif;
+      }
+  </style>
+<foreignObject x="0" y="0" width="520" height="150">
+  <div class="profile-header" xmlns="http://www.w3.org/1999/xhtml">
+    <link href="https://fonts.googleapis.com/css?family=GG+Gothic+L" rel="stylesheet" />
+    <div class="profile-info">
+      <h1 class="profile-name">{{ username }}</h1>
+      <h1 class="profile-display">@{{ display_user }}</h1>
+    </div>
+    <div class="profile-stats">
+      <ul>
+        <li>
+          <div class="profile-count">{{ friends_count }}</div>
+          <a>
+            <span class="profile-label">Friends</span>
+          </a>
+        </li>
+        <li>
+          <div class="profile-count">{{ followers_count }}</div>
+          <a>
+            <span class="profile-label">Followers</span>
+          </a>
+        </li>
+        <li>
+          <div class="profile-count">{{ followings_count }}</div>
+          <a>
+            <span class="profile-label">Following</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="profile-avatar">
+      <img src="{{ image_url }}" width="150" height="150" />
+    </div>
+  </div>
+</foreignObject>
+</svg>
